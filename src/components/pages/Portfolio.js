@@ -1,51 +1,64 @@
 import React from 'react';
 import projects from '../../projects.json';
-import { Card } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 function Portfolio(props) {
+
   return (
     <div className="container">
       
       
-      <Card>
-      <img src={props.image} className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      
-      <div className="card-body">
-        <a href={props.github} className="card-link">Card link</a>
-        <a href={props.deployedlink} className="card-link">Another link</a>
-      </div>
-    </Card>
+      <Row className="justify-content-md-center">
+        <Col lg="3">
+          <div className="myCard">
+            <img src={props.image} className="myCardImage" alt={props.name}/>
+            
+            <div className="card-body">
+              <h5 className="card-title">{props.name}</h5>
+              <p className="card-text">{props.description}</p>
+            </div>
+            
+            <div className="card-body">
+              <a href={props.github} className="card-link" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+              <a href={props.deployedlink} className="card-link" target="_blank" rel="noreferrer"><i class="fa-solid fa-display"></i></a>
+            </div>
 
-
+          </div>
+        
+        </Col>
+      </Row>
     </div>
   );
 }
 
+function Content(props) {
+  return <div className="content">{props.children}</div>;
+}
 
 function Projects () {  
   return (
   <>
-  <div className="container">
-  <h1>Portfolio</h1>
+  <div >
+  <center><h1>Portfolio</h1></center>
   </div>
 
-    <div>
+    <Content>
       {projects.map((project) => (
         <Portfolio 
         name={project.name}
         key={project.id}
         image={project.image}
         github={project.github}
-        deployedapp={project.deployedapp}
-        skills={project.skills}
+        deployedlink={project.deployedlink}
+        builtwith={project.builtwith}
         description={project.description}
         />
+        
       ))}
-    </div>
+      
+    </Content>
   </>
   );
 }

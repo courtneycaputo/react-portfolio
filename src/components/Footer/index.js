@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-
-
 function Footer (){
     const icons = [
         {
@@ -24,11 +21,15 @@ function Footer (){
         textDecoration: "none", 
         color: "black",
         paddingRight: "10px",
+        '& a:hover': {
+            color: "#FFFF00",
+        },
+    
         
     }
 
     return (
-        <footer> <center>
+        <footer style={LinkStyle}> <center>
             {icons.map(icon => {
                 return <a href={icon.links} key={icon.name} target="blank" style={LinkStyle}> <i className={icon.name}></i></a>
             })}
