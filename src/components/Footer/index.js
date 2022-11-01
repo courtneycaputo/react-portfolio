@@ -21,7 +21,7 @@ function Footer (){
         textDecoration: "none", 
         color: "black",
         paddingRight: "10px",
-        '& a:hover': {
+        'a:hover': {
             color: "#FFFF00",
         },
     

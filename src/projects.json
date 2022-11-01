@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Employee Tracker",
-        "image": "",
+        "image": "/img/employeemanager.png",
         "github": "https://github.com/courtneycaputo/employee-tracker",
         "deployedlink": "",
         "description": "This application can be used to manage employees, their roles, and departments within the company",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Team Profile Generator",
-        "image": "",
+        "image": "/img/teamprofilegenerator.png",
         "github": "https://github.com/courtneycaputo/team-profile-generator",
         "deployedlink": "",
         "description": "This generates a webpage that displays team members and their information",

@@ -10,8 +10,8 @@ function Portfolio(props) {
     <div className="container">
       
       
-      <Row className="justify-content-md-center">
-        <Col lg="3">
+      
+        
           <div className="myCard">
             <img src={props.image} className="myCardImage" alt={props.name}/>
             
@@ -27,15 +27,13 @@ function Portfolio(props) {
 
           </div>
         
-        </Col>
-      </Row>
     </div>
   );
 }
 
-function Content(props) {
-  return <div className="content">{props.children}</div>;
-}
+// function Content(props) {
+//   return <div className="content">{props.children}</div>;
+// }
 
 function Projects () {  
   return (
@@ -44,7 +42,9 @@ function Projects () {
   <center><h1>Portfolio</h1></center>
   </div>
 
-    <Content>
+  <Row className="justify-content-md-center">
+    <Col lg="3">
+      
       {projects.map((project) => (
         <Portfolio 
         name={project.name}
@@ -58,7 +58,9 @@ function Projects () {
         
       ))}
       
-    </Content>
+    
+    </Col>
+  </Row>
   </>
   );
 }
