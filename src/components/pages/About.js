@@ -1,32 +1,26 @@
 import React from 'react';
 import myPicture from '../../assets/mypicture.png';
+import { Row } from 'react-bootstrap';
 
 
 export default function About() {
   return (
-    <div className="container">
+    <div className="container aboutMeText">
       <br></br>
       <center><img src={myPicture} className="my-picture" alt="Courtney" /></center>
       
-      <h1 className="nameFont">About Me</h1>
+      <h1><Row className="justify-content-md-center">
+       About Me       
+      </Row></h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      Hello, and welcome to my portfolio! My name is Courtney, and I am currently a student in the Full Stack Coding Bootcamp offered through UC San Diego Extensions. I have a bachelor's degree from UC Santa Barbara in Economics with an Emphasis in Accounting. After spending 11 years working in Accounting and Finance, I have decided to change career paths and enter the world of IT/Tech. 
       </p>
-      
+            
       <p>
-        Hello, and welcome to my portfolio! My name is Courtney, and after spending 11 years working in Accounting and Finance I decided to change career paths. I am currently a student in the Full Stack Coding class through UCSD Extensions.
-
-        I have a bachelor's degree from UC Santa Barbara.
+        This area has always been interesting to me. While working in Accounting, I often represented the department on IT projects including system implementations, system migrations, and system integrations. I also worked closely with IT on developing necessary reporting for accounting month end close cycle and was even given access to SQL to write my own queries. I am excited to start this new journey of my career!
       </p>
+      <br></br>
+      <br></br>
     </div>
   );
 }

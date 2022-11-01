@@ -11,6 +11,10 @@
     font-family: 'Monoton', cursive;
 }
 
+.aboutMeText {
+    font-size: 20px;
+}
+
 .navTitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 50px;
