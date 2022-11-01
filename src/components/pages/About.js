@@ -5,7 +5,7 @@ import { Row } from 'react-bootstrap';
 
 export default function About() {
   return (
-    <div className="container aboutMeText">
+    <div className="container aboutMeText text-color">
       <br></br>
       <center><img src={myPicture} className="my-picture" alt="Courtney" /></center>
       

@@ -16,7 +16,7 @@ function ProjectCards(props) {
               <p className="project-description">{props.description}</p>
               <p class="proj-icons-container">
               <a href={props.github} className="project-icon"><i class="fa-brands fa-github"></i> </a> 
-              <a href={props.deploylink}><i class="fa-solid fa-display"></i></a> 
+              <a href={props.deployedlink} className="project-icon"><i class="fa-solid fa-display"></i></a> 
        
              
              </p>
@@ -38,14 +38,14 @@ function Projects () {
 
   return (
       <section className="container">
-        <div>
+        <div className="text-color">
           <center><h2>Portfolio</h2></center>
           
         </div>
 
         <Wrapper id="card-data">
           {projects.map((project) => (
-            <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} builtwith={project.builtwith} description={project.description}/>
+            <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deployedlink={project.deployedlink} builtwith={project.builtwith} description={project.description}/>
           ))}
         </Wrapper>
       </section>

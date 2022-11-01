@@ -22,7 +22,7 @@ export default function Resume() {
   // }
 
   return (
-    <div className="container">
+    <div className="container text-color">
       <h1><Row className="justify-content-md-center">
        Resume       
       </Row></h1>
@@ -30,7 +30,7 @@ export default function Resume() {
       <Row className="justify-content-md-center">
       <center>
         {resumeIcon.map(icon => {
-       return <a href={icon.links} className="resumeDownloadLink" download><i className={icon.name}></i></a> 
+       return <a href={icon.links} className="resume-link" download><i className={icon.name}></i></a> 
        })}
        </center>
        </Row>

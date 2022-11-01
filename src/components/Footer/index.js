@@ -16,22 +16,22 @@ function Footer (){
         }
     ]
 
-    const LinkStyle = {
-        fontSize: "40px",
-        textDecoration: "none", 
-        color: "black",
-        paddingRight: "10px",
-        'a:hover': {
-            color: "#FFFF00",
-        },
+    // const LinkStyle = {
+    //     fontSize: "40px",
+    //     textDecoration: "none", 
+    //     color: "#00CCFF",
+    //     paddingRight: "10px",
+    //     'a:hover': {
+    //         color: "#FFFF00",
+    //     },
     
         
-    }
+    // }
 
     return (
-        <footer style={LinkStyle}> <center>
+        <footer> <center>
             {icons.map(icon => {
-                return <a href={icon.links} key={icon.name} target="blank" style={LinkStyle}> <i className={icon.name}></i></a>
+                return <a href={icon.links} key={icon.name} target="blank" className="footer-link"> <i className={icon.name}></i></a>
             })}
             </center>
         </footer>

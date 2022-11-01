@@ -1,5 +1,9 @@
 * {
     background: black;
+    /* color: #00CCFF; */
+}
+
+.text-color{
     color: #00CCFF;
 }
 
@@ -59,11 +63,6 @@
     text-decoration: none;
     padding: 5px;
 
-}
-
-.resumeDownloadLink{
-    color: #FFFF00;
-    font-size: 50px;
 }
 
 .wrapper {
@@ -151,7 +150,7 @@
   
   .project-icon{
     background-color: black;
-    color:#00FFCC;
+    color: #00CCFF;
     padding: 5px;
     text-decoration: none;
     font-size: 25px;
@@ -172,7 +171,31 @@
   }
 
   .project-description{
-    font-size: 12px;
+    font-size: 13px;
     margin: 10px;
     /* text-align: left; */
+    color:#00CCFF;
+  }
+
+  .resume-link{
+    color: #00CCFF;
+    font-size: 50px;
+  }
+
+  .resume-link:hover{
+    color: #FFFF00;
+  }
+
+  .footer-link{
+    font-size: 40px;
+    text-decoration: none;
+    padding-right: 10px;
+    color:#00CCFF;
+  }
+
+  .footer-link:hover{
+    font-size: 40px;
+    text-decoration: none;
+    padding-right: 10px;
+    color:#FFFF00;
   }
