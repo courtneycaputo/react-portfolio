@@ -1,6 +1,6 @@
 * {
     background: black;
-    color: #00FFCC;
+    color: #00CCFF;
 }
 
 .my-picture{
@@ -14,6 +14,7 @@
 .navTitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 50px;
+    color: #00FFCC;
 }
 
 .mynavlinkactive {
@@ -54,4 +55,9 @@
     text-decoration: none;
     padding: 5px;
 
+}
+
+.resumeDownloadLink{
+    color: #FFFF00;
+    font-size: 50px;
 }

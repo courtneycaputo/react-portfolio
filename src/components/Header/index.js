@@ -5,11 +5,6 @@ function NavTabs({ currentPage, handlePageChange }) {
     background: "black",
   }
   
-  const headerLinkStyle = {
-    background: "black",
-    color: "#FF00CC"
-  }
-
   return (
 
 <nav className="navbar navbar-expand-lg " style={headerStyle}>
