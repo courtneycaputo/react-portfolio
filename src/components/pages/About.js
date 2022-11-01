@@ -2,11 +2,13 @@ import React from 'react';
 import myPicture from '../../assets/mypicture.png';
 
 
-export default function Home() {
+export default function About() {
   return (
-    <div>
+    <div className="container">
+      <br></br>
       <center><img src={myPicture} className="my-picture" alt="Courtney" /></center>
-      <h1>Courtney Caputo</h1>
+      
+      <h1 className="nameFont">About Me</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -18,6 +20,12 @@ export default function Home() {
         porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
+      </p>
+      
+      <p>
+        Hello, and welcome to my portfolio! My name is Courtney, and after spending 11 years working in Accounting and Finance I decided to change career paths. I am currently a student in the Full Stack Coding class through UCSD Extensions.
+
+        I have a bachelor's degree from UC Santa Barbara.
       </p>
     </div>
   );

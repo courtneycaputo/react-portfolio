@@ -1,3 +1,57 @@
+* {
+    background: black;
+    color: #00FFCC;
+}
+
 .my-picture{
     border-radius: 50%;
+}
+
+.nameFont{
+    font-family: 'Monoton', cursive;
+}
+
+.navTitle{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 50px;
+}
+
+.mynavlinkactive {
+    color: #FF00CC;
+    background-color: black ;
+    border-color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.mynavlinkactive:hover{
+    color: #FF00CC;
+    background-color: black ;
+    border-color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.mynavlink{
+    margin-bottom: calc(-1 * 1px);
+    background: none;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+    color: #00FFCC;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.mynavlink:hover{
+    margin-bottom: calc(-1 * 1px);
+    background: none;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+    color: #00FFCC;
+    text-decoration: none;
+    padding: 5px;
+
 }

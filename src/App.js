@@ -1,6 +1,21 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
+import Footer from "./components/Footer";
 
-const App = () => <PortfolioContainer />;
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+
+
+function App () {
+    return <div>
+        <main>
+        <PortfolioContainer />
+        </main>
+        <Footer/>
+    </div>
+}
+
+library.add(fas)
 
 export default App;
