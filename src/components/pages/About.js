@@ -13,7 +13,7 @@ export default function About() {
        About Me       
       </Row></h1>
       <p>
-      Hello, and welcome to my portfolio! My name is Courtney, and I am currently a student in the Full Stack Coding Bootcamp offered through UC San Diego Extensions. I have a bachelor's degree from UC Santa Barbara in Economics with an Emphasis in Accounting. After spending 11 years working in Accounting and Finance, I have decided to change career paths and enter the world of IT/Tech. 
+      Hello, and welcome to my portfolio! My name is Courtney, and I am currently a student in the Full Stack Coding Bootcamp offered through UC San Diego Extensions. I have a bachelor's degree from UC Santa Barbara in Economics with an emphasis in Accounting. After spending 11 years working in Accounting and Finance, I have decided to change career paths and enter the world of IT/Tech. 
       </p>
             
       <p>

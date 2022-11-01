@@ -75,8 +75,8 @@ export default function Resume() {
         <Col lg="4">
           <h2>Education</h2>
           <ul>
-            <li>Full Stack Coding Bootcamp (UC San Diego Extension Program)</li>
-            <li>Bachelor of Arts, Business Economics, Accounting Emphasis (UC Santa Barbara)</li>
+            <li>Full Stack Coding Bootcamp <span style={jobStyle}>UC San Diego Extension Program</span></li>
+            <li>Bachelor of Arts, Business Economics, Accounting Emphasis <span style={jobStyle}>UC Santa Barbara</span></li>
           </ul>
           
         </Col>
