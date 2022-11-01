@@ -20,9 +20,10 @@ function Footer (){
     ]
 
     const LinkStyle = {
-        fontSize: "50px",
+        fontSize: "40px",
         textDecoration: "none", 
-        color: "black"
+        color: "black",
+        paddingRight: "10px",
     }
 
     return (
