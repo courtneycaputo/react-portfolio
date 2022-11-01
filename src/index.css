@@ -55,7 +55,7 @@
     border: 1px solid transparent;
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
-    color: #00FFCC;
+    color: #FFFF00;
     text-decoration: none;
     padding: 5px;
 
@@ -66,31 +66,113 @@
     font-size: 50px;
 }
 
-/* .content {
-    padding-top: 50px;
+.wrapper {
+    padding-top: 10px;
+    justify-content: space-around;
     height: 100%;
     display: flex;
-    flex-flow: row wrap;
-    padding: 20px;
-    justify-content: space-around;
-    align-content: flex-start;
     overflow: auto;
-  } */
+    flex-flow: row wrap;
+    padding: 0px;
+    align-content: flex-start;
+    background-color: black;
+  }
 
-.myCard{
+/* .myCard{
     background-color: black;
     border-radius: 0px;
     height: 375px;
     margin: 1rem;
-    /* position: relative; */
+    position: relative;
     width: 356px;
     border: 3px solid;
     border-color: #00CCFF;
-    /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: center;
 }
 
 .myCardImage{
     width: 350px;
     background-color: black;
-}
+} */
+
+.newcard {
+    background-color: black;
+    border: 1px solid;
+    border-color: #00CCFF;
+    height: 450px;
+    margin: 1.5rem;
+    position: relative;
+    width: 350px;
+    
+  }
+  
+  .newcard .img-container {
+    /* height: 75%; */
+    overflow: hidden;
+    text-align: center;
+    border-radius: 0px;
+    background-color: black;
+    
+  }
+  
+  .newcard .img-container img {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+   
+  }
+  
+  .newcard .content {
+    font-size: 18px;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .card-title{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color:#FF00CC;
+    
+  }
+  
+  .project-title {
+    color: black;
+    background-color: black;
+    
+  }
+  
+  .project-icons-container {
+    background-color: black;
+  }
+  
+  .project-icon{
+    background-color: black;
+    color:#00FFCC;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .project-icon:hover{
+    background-color: black;
+    padding: 5px;
+    text-decoration: none;
+    color:#FFFF00;
+  }
+  
+  .topics {
+    font-size: small;
+    font-style: italic;
+    background-color: black;  
+    color:#00FFCC;  
+  }
+
+  .project-description{
+    font-size: 12px;
+    margin: 10px;
+    /* text-align: left; */
+  }
