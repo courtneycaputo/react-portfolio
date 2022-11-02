@@ -30,7 +30,7 @@ To run this application locally, run the following command in terminal `npm star
 
 <img src="src/assets/contact.png">
 
-<a href="https://drive.google.com/file/d/1YXoDNfoG6729-jCSK82BqJt6UFksZdjv/view" target="blank">Demo Video</a>
+<a href="https://courtneycaputo.github.io/react-portfolio/" target="blank">Portfolio Link</a>
 
 ## License: <a name="license"></a>
 This project is licensed under the MIT license.
