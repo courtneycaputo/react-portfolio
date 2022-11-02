@@ -22,13 +22,13 @@ To install the necessary dependencies, run the following command in terminal onc
 ## Usage Information: <a name="usage"></a>
 To run this application locally, run the following command in terminal `npm start`
 
-<img src="./assets/about.png">
+<img src="src/assets/about.png">
 
-<img src="./assets/portfolio.png">
+<img src=".src/assets/portfolio.png">
 
-<img src="./assets.resume.png>
+<img src="src/assets.resume.png">
 
-<img src="./assets/contact.png">
+<img src="src/assets/contact.png">
 
 <a href="https://drive.google.com/file/d/1YXoDNfoG6729-jCSK82BqJt6UFksZdjv/view" target="blank">Demo Video</a>
 
