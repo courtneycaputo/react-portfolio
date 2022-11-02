@@ -25,35 +25,36 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'mynavlinkactive' : 'mynavlink'}
           >
-            <i class="fa-solid fa-user"></i> About
+            
+            About
             </a>
         </li>
 
         <li className="nav-item">
           <a href="#portfolio" 
-          //style={headerLinkStyle}
           onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'mynavlinkactive' : 'mynavlink'}
           >
-            <i class="fa-solid fa-laptop-code"></i> Portfolio</a>
+            
+            Portfolio</a>
         </li>
 
         <li className="nav-item">
           <a href="#resume" 
-          //style={headerLinkStyle}
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'mynavlinkactive' : 'mynavlink'}
           >
-            <i class="fa-solid fa-file-lines"></i> Resume</a>
+            
+             Resume</a>
         </li>
         
         <li className="nav-item">
           <a href="#contact" 
-         // style={headerLinkStyle}
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'mynavlinkactive' : 'mynavlink'}
           >
-            <i class="fa-solid fa-message"></i> Contact</a>
+            
+            Contact</a>
         </li>
 
       </ul>

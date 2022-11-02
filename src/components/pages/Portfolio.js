@@ -9,7 +9,7 @@ function ProjectCards(props) {
     return (
       <div className="newcard"> 
         <div className="img-container">
-          <img alt={props.name} src={props.image}/>
+          <img alt={props.name} src={process.env.PUBLIC_URL + props.image}/>
         </div>
         <div className="content">
               <p className="card-title">{props.name}</p>
