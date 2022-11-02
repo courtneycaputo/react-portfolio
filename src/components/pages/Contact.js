@@ -8,7 +8,7 @@ function Contact() {
   });
 
   const [errorMessage, setErrorMessage] = useState("");
-  
+
   const { name, email, message } = formState;
 
   const handleSubmit = (event) => {
@@ -66,6 +66,7 @@ function Contact() {
           <textarea className="formcontrol" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
         </div>
         
+        <br></br>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
