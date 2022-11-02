@@ -24,9 +24,9 @@ To run this application locally, run the following command in terminal `npm star
 
 <img src="src/assets/about.png">
 
-<img src=".src/assets/portfolio.png">
+<img src="src/assets/portfolio.png">
 
-<img src="src/assets.resume.png">
+<img src="src/assets/resume.png">
 
 <img src="src/assets/contact.png">
 
