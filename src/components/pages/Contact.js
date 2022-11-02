@@ -6,7 +6,9 @@ function Contact() {
     email: "",
     message: ""
   });
+
   const [errorMessage, setErrorMessage] = useState("");
+  
   const { name, email, message } = formState;
 
   const handleSubmit = (event) => {
@@ -26,7 +28,7 @@ function Contact() {
     if (event.target.name === "email") {
       const isValid = validateEmail(event.target.value);
       if (!isValid) {
-        setErrorMessage("Your email is invalid")
+        setErrorMessage("Please enter a valid email!")
       } else {
         setErrorMessage("");
       }
@@ -77,7 +79,7 @@ function Contact() {
       </form>
     
     </section>
-    
+
   )
 
 }

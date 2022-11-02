@@ -190,7 +190,8 @@
     font-size: 40px;
     text-decoration: none;
     padding-right: 10px;
-    color: var(--black);
+    margin-top: 20px;
+    color: var(--blue);
   }
 
   .footer-link:hover{
@@ -242,6 +243,14 @@
     border: 1px solid var(--pink);
     outline: none;
     color: var(--pink);
+  }
+
+  button:hover{
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid var(--yellow);
+    outline: none;
+    color: var(--yellow);
   }
 
   .form-spacing{

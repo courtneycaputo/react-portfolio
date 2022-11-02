@@ -16,17 +16,6 @@ function Footer (){
         }
     ]
 
-    // const LinkStyle = {
-    //     fontSize: "40px",
-    //     textDecoration: "none", 
-    //     color: "#00CCFF",
-    //     paddingRight: "10px",
-    //     'a:hover': {
-    //         color: "#FFFF00",
-    //     },
-    
-        
-    // }
 
     return (
         <footer> <center>
