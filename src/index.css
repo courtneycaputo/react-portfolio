@@ -42,7 +42,7 @@
     background-color: black ;
     border-color: black;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
 }
 
 .mynavlinkactive:hover{
@@ -50,7 +50,7 @@
     background-color: black ;
     border-color: black;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
 }
 
 .mynavlink{
@@ -61,7 +61,7 @@
     border-top-right-radius: 0.375rem;
     color: #00FFCC;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
 
 }
 
@@ -73,7 +73,7 @@
     border-top-right-radius: 0.375rem;
     color: var(--yellow);
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
 
 }
 
@@ -190,7 +190,6 @@
     font-size: 40px;
     text-decoration: none;
     padding-right: 10px;
-    margin-top: 20px;
     color: var(--blue);
   }
 
