@@ -41,7 +41,7 @@
         "image": "/img/beenthere.png",
         "github": "https://github.com/ddangeles/BeenThere-AteThat",
         "deployedlink": "https://beenthereatethat.herokuapp.com/",
-        "description": "This app allows users to add restaurants they want to visit to share with friends, then upload pictures and comments and mark a restaurant as /been there/ once they have visited",
+        "description": "This app allows users to add restaurants they want to visit to share with friends, then upload pictures and comments and mark a restaurant as 'been there' once they have visited",
         "builtwith": "Node.JS, Express.JS, MySQL, NPM, Handlebars, Sequelize"
     },    
     {

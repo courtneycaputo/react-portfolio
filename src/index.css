@@ -1,10 +1,22 @@
+/* color palette: https://coolors.co/palette/00ccff-00ffcc-ffff00-ff00cc-cc00ff */
+
+:root {
+    --blue: #00CCFF;
+    --pink: #FF00CC;
+    --black: black;
+    --yellow: #FFFF00;
+    --teal: #00FFCC;
+    --purple: #CC00FF;
+
+}
+
 * {
     background: black;
     /* color: #00CCFF; */
 }
 
 .text-color{
-    color: #00CCFF;
+    color: var(--blue);
 }
 
 .my-picture{
@@ -22,7 +34,7 @@
 .navTitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 50px;
-    color: #00FFCC;
+    color: var(--teal);
 }
 
 .mynavlinkactive {
@@ -34,7 +46,7 @@
 }
 
 .mynavlinkactive:hover{
-    color: #FF00CC;
+    color: var(--pink);
     background-color: black ;
     border-color: black;
     text-decoration: none;
@@ -59,7 +71,7 @@
     border: 1px solid transparent;
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
-    color: #FFFF00;
+    color: var(--yellow);
     text-decoration: none;
     padding: 5px;
 
@@ -97,8 +109,8 @@
 
 .newcard {
     background-color: black;
-    border: 1px solid;
-    border-color: #00CCFF;
+    border: 3px solid;
+    border-color: var(--blue);
     height: 450px;
     margin: 1.5rem;
     position: relative;
@@ -134,7 +146,7 @@
     font-size: 20px;
     font-weight: bold;
     background-color: black;
-    color:#FF00CC;
+    color:var(--purple);
     
   }
   
@@ -160,14 +172,14 @@
     background-color: black;
     padding: 5px;
     text-decoration: none;
-    color:#FFFF00;
+    color:var(--yellow);
   }
   
   .topics {
     font-size: small;
     font-style: italic;
     background-color: black;  
-    color:#00FFCC;  
+    color:var(--teal);  
   }
 
   .project-description{
@@ -178,24 +190,24 @@
   }
 
   .resume-link{
-    color: #00CCFF;
+    color: var(--purple);
     font-size: 50px;
   }
 
   .resume-link:hover{
-    color: #FFFF00;
+    color: var(--yellow);
   }
 
   .footer-link{
     font-size: 40px;
     text-decoration: none;
     padding-right: 10px;
-    color:#00CCFF;
+    color: var(--black);
   }
 
   .footer-link:hover{
     font-size: 40px;
     text-decoration: none;
     padding-right: 10px;
-    color:#FFFF00;
+    color:var(--yellow);
   }
