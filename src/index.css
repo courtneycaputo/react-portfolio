@@ -31,6 +31,7 @@
     font-size: 20px;
 }
 
+/* Navigation */
 .navTitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 50px;
@@ -77,6 +78,7 @@
 
 }
 
+/* Portfolio */
 .wrapper {
     padding-top: 10px;
     justify-content: space-around;
@@ -88,9 +90,6 @@
     align-content: flex-start;
     background-color: black;
   }
-
-
-/* Portfolio */
 
 .newcard {
     background-color: black;
