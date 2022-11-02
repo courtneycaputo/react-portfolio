@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -12,15 +14,21 @@
 - [Questions](#questions)
     
 ## Description: <a name="description"></a>
-
+This project was to create a portfolio using React. In this portfolio, it has sections for about me, resume, projects, and a contact page.
 
 ## Installation Instructions: <a name="installation"></a>
-To use this application, clone the repository from GitHub. This application requires Node.js, inquirer, console.table, and mysql2. To install the necessary dependencies, run the following command in terminal once the respository has been cloned: `npm install`. To view the database from MySQL, run the following command in terminal `mysql -u root -p`. The user must enter their MySQL password to view the database. to start the application, run the following command in terminal `node server.js`.
+To install the necessary dependencies, run the following command in terminal once the respository has been cloned: `npm install`. 
 
 ## Usage Information: <a name="usage"></a>
-This application can be used to manage employees, roles, and departments of a company. This application allows users to view all employees, roles, and departments within a company as well as add new departments, add new roles, add new employees, and update employee roles.
+To run this application locally, run the following command in terminal `npm start`
 
-<img src="/assets/Screenshot.png">
+<img src="./assets/about.png">
+
+<img src="./assets/portfolio.png">
+
+<img src="./assets.resume.png>
+
+<img src="./assets/contact.png">
 
 <a href="https://drive.google.com/file/d/1YXoDNfoG6729-jCSK82BqJt6UFksZdjv/view" target="blank">Demo Video</a>
 
