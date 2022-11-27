@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   const headerStyle = {
-    background: "#19335A",
+    background: "#111f35",
   }
   
   return (

@@ -8,7 +8,7 @@
     --teal: #00FFCC;
     --purple: #CC00FF;
 
-    --background: #19335A;
+    --background: #111f35;
     --activelink: #4675C0;
     --link: #8FC8EB;
     --medium: #697A98;
@@ -42,7 +42,7 @@
 /* Navigation */
 .navTitle{
     font-family: 'Oxygen', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: var(--contrast);
 }
 
