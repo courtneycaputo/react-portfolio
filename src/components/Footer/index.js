@@ -11,8 +11,8 @@ function Footer (){
             links: "https://www.linkedin.com/in/courtney-caputo-556614b5/"
         },
         {
-            name: "fa-brands fa-stack-overflow",
-            links: "https://stackoverflow.com/users/19785955/courtney-caputo"
+            name: "fa-solid fa-envelope",
+            links: "mailto:courtneycaputo@gmail.com"
         }
     ]
 

@@ -8,15 +8,23 @@
     --teal: #00FFCC;
     --purple: #CC00FF;
 
+    --background: #19335A;
+    --activelink: #4675C0;
+    --link: #8FC8EB;
+    --medium: #697A98;
+    --text: #88BFD6;
+    --contrast: #a5678e;
+    --lightcontrast: #E8B7D4;
+
 }
 
 * {
-    background: black;
-    /* color: #00CCFF; */
+    background: var(--background);
+    
 }
 
 .text-color{
-    color: var(--blue);
+    color: var(--text);
 }
 
 .my-picture{
@@ -35,21 +43,21 @@
 .navTitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 50px;
-    color: var(--teal);
+    color: var(--contrast);
 }
 
 .mynavlinkactive {
-    color: #FF00CC;
-    background-color: black ;
-    border-color: black;
+    color: var(--activelink);
+    background-color: var(--background) ;
+    border-color: var(--background);
     text-decoration: none;
     padding: 10px;
 }
 
 .mynavlinkactive:hover{
-    color: var(--pink);
-    background-color: black ;
-    border-color: black;
+    color: var(--contrast);
+    background-color: var(--background) ;
+    border-color:  var(--background);
     text-decoration: none;
     padding: 10px;
 }
@@ -60,7 +68,7 @@
     border: 1px solid transparent;
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
-    color: #00FFCC;
+    color: var(--link);
     text-decoration: none;
     padding: 10px;
 
@@ -72,7 +80,7 @@
     border: 1px solid transparent;
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
-    color: var(--yellow);
+    color: var(--contrast);
     text-decoration: none;
     padding: 10px;
 
@@ -88,13 +96,13 @@
     flex-flow: row wrap;
     padding: 0px;
     align-content: flex-start;
-    background-color: black;
+    background-color:  var(--background);
   }
 
 .newcard {
-    background-color: black;
+    background-color:  var(--background);
     border: 3px solid;
-    border-color: var(--blue);
+    border-color: var(--text);
     height: 450px;
     margin: 1.5rem;
     position: relative;
@@ -107,7 +115,7 @@
     overflow: hidden;
     text-align: center;
     border-radius: 0px;
-    background-color: black;
+    background-color: var(--background);
     
   }
   
@@ -115,88 +123,88 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: black;
+    background-color: var(--background);
    
   }
   
   .newcard .content {
     font-size: 18px;
     text-align: center;
-    background-color: black;
+    background-color:  var(--background);
   }
   
   .card-title{
     margin-top: 0px;
     font-size: 20px;
     font-weight: bold;
-    background-color: black;
-    color:var(--purple);
+    background-color:  var(--background);
+    color:var(--contrast);
     
   }
   
   .project-title {
     color: black;
-    background-color: black;
+    background-color:  var(--background);
     
   }
   
   .project-icons-container {
-    background-color: black;
+    background-color:  var(--background);
   }
   
   .project-icon{
-    background-color: black;
-    color: #00CCFF;
+    background-color:  var(--background);
+    color: var(--contrast);
     padding: 5px;
     text-decoration: none;
     font-size: 25px;
   }
 
   .project-icon:hover{
-    background-color: black;
+    background-color: var(--background);
     padding: 5px;
     text-decoration: none;
-    color:var(--yellow);
+    color:var(--lightcontrast);
   }
   
   .topics {
     font-size: small;
     font-style: italic;
-    background-color: black;  
-    color:var(--teal);  
+    background-color:  var(--background);  
+    color:var(--lightcontrast);  
   }
 
   .project-description{
     font-size: 13px;
     margin: 10px;
-    color:#00CCFF;
+    color:var(--text);
   }
 
   /* Resume */
 
   .resume-link{
-    color: var(--purple);
+    color: var(--contrast);
     font-size: 50px;
   }
 
   .resume-link:hover{
-    color: var(--yellow);
+    color: var(--lightcontrast);
   }
 
   /* Footer */
 
   .footer-link{
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     padding-right: 10px;
-    color: var(--blue);
+    color: var(--link);
   }
 
   .footer-link:hover{
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     padding-right: 10px;
-    color:var(--yellow);
+    color:var(--contrast);
   }
 
   /* Contact Form */
@@ -213,7 +221,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: var(--pink);
-    background-color: var(--black);
+    background-color:  var(--background);
     background-clip: padding-box;
     border: 1px solid var(--blue);
   }
@@ -225,7 +233,7 @@
     outline: none;
     transition: box-shadow 0.2s;
     color:#00CCFF;
-    background-color: var(--black);
+    background-color:  var(--background);
   }
 
   textarea{

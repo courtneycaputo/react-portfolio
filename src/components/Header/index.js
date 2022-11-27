@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   const headerStyle = {
-    background: "black",
+    background: "#19335A",
   }
   
   return (
@@ -45,13 +45,13 @@ function NavTabs({ currentPage, handlePageChange }) {
             <i class="fa-solid fa-file-lines"></i> Resume</a>
         </li>
         
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a href="#contact" 
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'mynavlinkactive' : 'mynavlink'}
           >
             <i class="fa-solid fa-message"></i> Contact</a>
-        </li>
+        </li> */}
 
       </ul>
     </div>

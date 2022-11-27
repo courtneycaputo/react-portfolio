@@ -6,7 +6,7 @@ import Resume2020 from '../../assets/Resume2020.pdf';
 export default function Resume() {
 
   const jobStyle = {
-    color: "#CC00FF",    
+    color: "#E8B7D4",    
   }
 
   const resumeIcon = [
@@ -49,10 +49,10 @@ export default function Resume() {
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
-            <li>Framework (Bootstrap, Materialize)</li>
+            <li>Front End Frameworks (Bootstrap, Materialize, Material UI)</li>
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>MySQL</li>
+            <li>SQL (MySQL)</li>
             <li>NoSQL (MongoDB)</li>
             <li>APIs (web, third-party, RESTful, server-side)</li>
 
