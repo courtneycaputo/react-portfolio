@@ -18,7 +18,7 @@ export default function About() {
         <Col lg="7">
           <p>
           <br></br>
-          <h1>Hi, I'm Courtney Courtney</h1>
+          <h1>Hi, I'm Courtney Caputo</h1>
             Hello, and welcome to my portfolio! I recently graduated from the Full Stack Coding Bootcamp offered through UC San Diego Extensions. I have a bachelor's degree from UC Santa Barbara in Economics with an emphasis in Accounting. After spending 11 years working in Accounting and Finance, I have decided to change career paths and become a developer. Through the bootcamp, I have been able to learn both front-end and back-end development.
           </p>
         </Col>
