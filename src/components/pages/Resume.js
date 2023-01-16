@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import Resume2020 from '../../assets/Resume2020.pdf';
+import CaputoResume from '../../assets/CaputoResume.pdf';
 
 
 export default function Resume() {
@@ -12,7 +12,7 @@ export default function Resume() {
   const resumeIcon = [
     {
       name:"fa-solid fa-file-pdf",
-      links: C.CaputoResume,
+      links: CaputoResume,
     }
   ]
 
