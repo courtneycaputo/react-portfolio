@@ -12,7 +12,7 @@ export default function Resume() {
   const resumeIcon = [
     {
       name:"fa-solid fa-file-pdf",
-      links: Resume2020,
+      links: C.CaputoResume,
     }
   ]
 
